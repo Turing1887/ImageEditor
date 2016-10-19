@@ -11,5 +11,8 @@ public class ImageEditorFrame extends JFrame{
         setSize(400,300);
         setVisible(true);
         setTitle("Mega Awesome Frame");
+        ImageEditorPanel panel = new ImageEditorPanel();
+        add(panel);
+
     }
 }
