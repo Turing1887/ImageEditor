@@ -10,6 +10,7 @@ public class ImageEditorFrame extends JFrame{
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(400,300);
         setVisible(true);
+<<<<<<< HEAD
 		
 	private void createMenuBar(){
 		JMenuBar menuBar = new JMenuBar();
@@ -30,4 +31,8 @@ public class ImageEditorFrame extends JFrame{
 		JOptionPane.showMessageDialog(this, "Open Selected");
 	}
 	}
+=======
+        setTitle("Mega Awesome Frame");
+    }
+>>>>>>> 878a78555a18716b23c7a6eb0567d01b41641b74
 }
